@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 1, Errors: 0, Skipped: 17, Time elapsed: 3.881 s <<< FAILURE! - in TestSuite
+com.mco.tests.HomePageTest.setUp  Time elapsed: 2.918 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 96
+Current browser version is 98.0.4758.102 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'khosruzs-MBP.lan', ip: '2603:7000:ac00:531d:0:0:0:1fc5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000100b65408 __gxx_personality_v0 + 543364
+1   chromedriver                        0x0000000100afb138 __gxx_personality_v0 + 108468
+2   chromedriver                        0x00000001006fa7d8 chromedriver + 157656
+3   chromedriver                        0x000000010071cb88 chromedriver + 297864
+4   chromedriver                        0x0000000100719608 chromedriver + 284168
+5   chromedriver                        0x0000000100716624 chromedriver + 271908
+6   chromedriver                        0x0000000100747e24 chromedriver + 474660
+7   chromedriver                        0x000000010071f238 chromedriver + 307768
+8   chromedriver                        0x0000000100b28c7c __gxx_personality_v0 + 295672
+9   chromedriver                        0x0000000100b3cbd8 __gxx_personality_v0 + 377428
+10  chromedriver                        0x0000000100b412b0 __gxx_personality_v0 + 395564
+11  chromedriver                        0x0000000100b3d9f8 __gxx_personality_v0 + 381044
+12  chromedriver                        0x0000000100b1e754 __gxx_personality_v0 + 253392
+13  chromedriver                        0x0000000100b56a38 __gxx_personality_v0 + 483508
+14  chromedriver                        0x0000000100b56bac __gxx_personality_v0 + 483880
+15  chromedriver                        0x0000000100b6bfec __gxx_personality_v0 + 570984
+16  libsystem_pthread.dylib             0x000000019d341240 _pthread_start + 148
+17  libsystem_pthread.dylib             0x000000019d33c024 thread_start + 8
+
+	at com.mco.tests.HomePageTest.setUp(HomePageTest.java:21)
+
